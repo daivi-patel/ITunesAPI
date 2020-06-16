@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Lookup</title>
+</head>
+<body>
+<form action = "http://localhost:5000/output" method = "POST">
+          <p><b>Give a music artist's name: </b><input type = "text" name = "Artist" /></p>
+          <p><input type = "Submit" value = "Go" /></p>
+</body>
+</html>
